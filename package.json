@@ -1,0 +1,49 @@
+{
+  "name": "bootstrap-4-sass-gulp-4-boilerplate",
+  "version": "1.0.0",
+  "description": "A Bootstrap 4.1.1 boilerplate with sass and gulp 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayeshLab/bootstrap-4-sass-gulp-4-boilerplate.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "4",
+    "sass",
+    "scss",
+    "gulp",
+    "4",
+    "boilerplate",
+    "stater"
+  ],
+  "author": "Jayesh Vachhani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JayeshLab/bootstrap-4-sass-gulp-4-boilerplate/issues"
+  },
+  "homepage": "https://github.com/JayeshLab/bootstrap-4-sass-gulp-4-boilerplate#readme",
+  "dependencies": {
+    "bootstrap": "4.1.1",
+    "popper.js": "1.14.3",
+    "font-awesome": "4.7.0",
+    "jquery": "3.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "merge-stream": "^1.0.1"
+  }
+}
