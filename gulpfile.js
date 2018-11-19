@@ -111,7 +111,7 @@ gulp.task('dev', function browserDev(done) {
       baseDir: "./"
     }
   });
-  gulp.watch('assets/scss/*.scss', gulp.series('css:minify', function cssBrowserReload (done) {
+  gulp.watch(['assets/scss/*.scss','assets/scss/**/*.scss','!assets/scss/bootstrap/**'], gulp.series('css:minify', function cssBrowserReload (done) {
     browserSync.reload();
     done(); //Async callback for completion.
   }));

@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-4-sass-gulp-4-boilerplate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Bootstrap 4.1.3 boilerplate with sass and gulp 4",
   "main": "index.js",
   "scripts": {
