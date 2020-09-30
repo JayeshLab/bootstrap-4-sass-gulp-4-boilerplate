@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-4-sass-gulp-4-boilerplate",
-  "version": "1.1.0",
-  "description": "A Bootstrap 4.3.1 boilerplate with sass and gulp 4",
+  "version": "1.2.0",
+  "description": "A Bootstrap 4.5.2 boilerplate with sass and gulp 4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,13 +12,13 @@
   },
   "keywords": [
     "bootstrap",
-    "4",
+    "bootstrap4",
     "sass",
     "scss",
     "gulp",
-    "4",
     "boilerplate",
-    "stater"
+    "stater",
+    "font-awesome"
   ],
   "author": "Jayesh Vachhani",
   "license": "MIT",
@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/JayeshLab/bootstrap-4-sass-gulp-4-boilerplate#readme",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "font-awesome": "4.7.0",
-    "jquery": ">=3.4.0",
-    "popper.js": "1.14.7"
+    "@fortawesome/fontawesome-free": "^5.15.0",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "1.16.1"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
